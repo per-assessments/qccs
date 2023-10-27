@@ -1,1 +1,18 @@
+/* Custom CSS for formatting the Qualtrics survey */
 
+/* Custom style command to center images vertically. This is used to improve multiple choice formatting. */
+.CenterGraphic {
+position: relative;
+vertical-align: middle;
+}
+
+/* Global edits to the Qualtrics CSS to improve MC alignment. These make sure the bubbles are aligned with the center of images. */
+.Skin .MC .MACOL .QuestionBody td.ControlContainer {
+position: relative;
+vertical-align: middle;
+}
+ .Skin .MC .SACOL .QuestionBody td.ControlContainer {
+{
+position: relative;
+vertical-align: middle;
+}
